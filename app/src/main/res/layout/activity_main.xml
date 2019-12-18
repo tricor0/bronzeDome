@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewsas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="52dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pirmas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pirmas" />
+
+        <Button
+            android:id="@+id/antras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Antras" />
+
+        <Button
+            android:id="@+id/trecias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trecias" />
+
+        <Button
+            android:id="@+id/ketvirtas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ketvirtas" />
+    </LinearLayout>
+</LinearLayout>
